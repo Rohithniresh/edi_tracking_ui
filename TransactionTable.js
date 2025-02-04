@@ -45,7 +45,7 @@ export default function TransactionTable({ filters }) {
   return (
     <div className="bg-white p-4 shadow-md rounded-md">
       <h2 className="text-xl font-semibold mb-4">Transactions</h2>
-      <table className="w-full border-collapse border border-gray-300">
+      <table className="w-full shadow-lg rounded-lg overflow-hidden bg-white border border-gray-200">
         <thead>
           <tr className="bg-gray-200">
             <th className="border p-2">Transaction ID</th>
